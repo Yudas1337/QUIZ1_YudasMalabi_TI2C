@@ -19,8 +19,5 @@
           </div>
         </div>
       </nav>
-
-
       @yield('main')
-
       @include('layouts.footer')

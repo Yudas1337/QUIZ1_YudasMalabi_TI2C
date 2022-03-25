@@ -1,4 +1,3 @@
-
 @extends('layouts.master')
 
 @section('main')
@@ -7,7 +6,7 @@
       <section class="pb-6">
         <div class="container">
           <div class="row flex-center">
-            <div class="col-lg-6 col-md-5 order-md-1"><img class="img-fluid" src="assets/img/illustrations/1.png" alt="" /></div>
+            <div class="col-lg-6 col-md-5 order-md-1"><img class="img-fluid" src="{{ asset('images/illustrations/1.png') }}" alt="" /></div>
             <div class="col-md-7 col-lg-6 mt-5 text-center text-md-start">
               <h1 class="fw-medium">Want anything to be<br />easy with <span class="fw-bold">LaslesVPN.</span></h1>
               <p class="mt-3 mb-4">Provide a network for all your needs with ease and fun using <span class="fw-medium">LaslesVPN </span>discover interesting features from us.Most people make the mistake of forcing themselves to network.Or they pretend to be outgoing to make new connections. </p><a class="btn btn-lg btn-danger hover-top btn-glow" href="#">Get Started </a>
@@ -79,7 +78,7 @@
       <section class="pt-4 pt-md-6">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-md-5 col-lg-7 text-lg-center"><img class="img-fluid mb-5 mb-md-0" src="assets/img/illustrations/2.png" alt="" /></div>
+            <div class="col-md-5 col-lg-7 text-lg-center"><img class="img-fluid mb-5 mb-md-0" src="{{ asset('images/illustrations/2.png') }}" alt="" /></div>
             <div class="col-md-7 col-lg-5 text-center text-md-start">
               <h2>We Provide Many <br />Features You Can Use</h2>
               <p> You can explore the features that we provide with fun and have their own functions each feature.</p>
@@ -125,7 +124,7 @@
             <div class="col-md-4 pt-4 px-md-2 px-lg-3">
               <div class="card h-100">
                 <div class="card-body d-flex flex-column justify-content-around mx-auto">
-                  <div class="text-center pt-5"><img class="img-fluid" src="assets/img/icons/pricing.png" alt="" />
+                  <div class="text-center pt-5"><img class="img-fluid" src="{{ asset('images/icons/pricing.png') }}" alt="" />
                     <h5 class="my-4">Free Plan</h5>
                   </div>
                   <ul class="list-unstyled">
@@ -143,7 +142,7 @@
             <div class="col-md-4 pt-4 px-md-2 px-lg-3">
               <div class="card h-100">
                 <div class="card-body d-flex flex-column justify-content-around mx-auto">
-                  <div class="text-center pt-5"><img class="img-fluid" src="assets/img/icons/pricing.png" alt="" />
+                  <div class="text-center pt-5"><img class="img-fluid" src="{{ asset('images/icons/pricing.png') }}" alt="" />
                     <h5 class="my-4">Standard Plan</h5>
                   </div>
                   <ul class="list-unstyled">
@@ -162,7 +161,7 @@
             <div class="col-md-4 pt-4 px-md-2 px-lg-3">
               <div class="card h-100">
                 <div class="card-body d-flex flex-column justify-content-around mx-auto">
-                  <div class="text-center pt-5"><img class="img-fluid" src="assets/img/icons/pricing.png" alt="" />
+                  <div class="text-center pt-5"><img class="img-fluid" src="{{ asset('images/icons/pricing.png') }}" alt="" />
                     <h5 class="my-4">Premium Plan</h5>
                   </div>
                   <ul class="list-unstyled">
@@ -195,7 +194,7 @@
               <h2>Huge Global Network<br />of Fast VPN</h2>
               <p>See LaslesVPN everywhere to make it easier for you when you move locations.</p>
             </div>
-            <div class="pt-8"><img class="img-fluid" src="assets/img/gallery/map.png" alt="" /></div>
+            <div class="pt-8"><img class="img-fluid" src="{{ asset('images/gallery/map.png') }}" alt="" /></div>
           </div>
         </div><!-- end of .container-->
       </section><!-- <section> close ============================-->
@@ -238,7 +237,7 @@
                     <div class="card h-100">
                       <div class="card-body">
                         <div class="d-flex justify-content-between align-items-center">
-                          <div class="d-flex align-items-center"><img class="img-fluid" src="assets/img/gallery/user-1.png" alt="" />
+                          <div class="d-flex align-items-center"><img class="img-fluid" src="{{ asset('images/gallery/user-1.png') }}" alt="" />
                             <div class="flex-1 ms-3">
                               <h6 class="mb-0 fs--1 text-1000 fw-medium">Viezh Robert</h6>
                               <p class="fs--2 fw-normal mb-0">arsaw, Poland</p>
@@ -256,7 +255,7 @@
                     <div class="card h-100">
                       <div class="card-body">
                         <div class="d-flex justify-content-between align-items-center">
-                          <div class="d-flex align-items-center"><img class="img-fluid" src="assets/img/gallery/user-2.png" alt="" />
+                          <div class="d-flex align-items-center"><img class="img-fluid" src="{{ asset('images/gallery/user-2.png') }}" alt="" />
                             <div class="flex-1 ms-3">
                               <h6 class="mb-0 fs--1 text-1000 fw-medium">Kim Young Jou</h6>
                               <p class="fs--2 fw-normal mb-0">Seoul, South Korea</p>
@@ -274,7 +273,7 @@
                     <div class="card h-100">
                       <div class="card-body">
                         <div class="d-flex justify-content-between align-items-center">
-                          <div class="d-flex align-items-center"><img class="img-fluid" src="assets/img/gallery/user-3.png" alt="" />
+                          <div class="d-flex align-items-center"><img class="img-fluid" src="{{ asset('images/gallery/user-3.png') }}" alt="" />
                             <div class="flex-1 ms-3">
                               <h6 class="mb-0 fs--1 text-1000 fw-medium">Viezh Robert</h6>
                               <p class="fs--2 fw-normal mb-0">Shanxi, China</p>
@@ -296,7 +295,7 @@
                     <div class="card h-100">
                       <div class="card-body">
                         <div class="d-flex justify-content-between align-items-center">
-                          <div class="d-flex align-items-center"><img class="img-fluid" src="assets/img/gallery/user-1.png" alt="" />
+                          <div class="d-flex align-items-center"><img class="img-fluid" src="{{ asset('images/gallery/user-1.png') }}" alt="" />
                             <div class="flex-1 ms-3">
                               <h6 class="mb-0 fs--1 text-1000 fw-medium">Viezh Robert</h6>
                               <p class="fs--2 fw-normal mb-0">arsaw, Poland</p>
@@ -314,7 +313,7 @@
                     <div class="card h-100">
                       <div class="card-body">
                         <div class="d-flex justify-content-between align-items-center">
-                          <div class="d-flex align-items-center"><img class="img-fluid" src="assets/img/gallery/user-2.png" alt="" />
+                          <div class="d-flex align-items-center"><img class="img-fluid" src="{{ asset('images/gallery/user-2.png') }}" alt="" />
                             <div class="flex-1 ms-3">
                               <h6 class="mb-0 fs--1 text-1000 fw-medium">Kim Young Jou</h6>
                               <p class="fs--2 fw-normal mb-0">Seoul, South Korea</p>
@@ -332,7 +331,7 @@
                     <div class="card h-100">
                       <div class="card-body">
                         <div class="d-flex justify-content-between align-items-center">
-                          <div class="d-flex align-items-center"><img class="img-fluid" src="assets/img/gallery/user-3.png" alt="" />
+                          <div class="d-flex align-items-center"><img class="img-fluid" src="{{ asset('images/gallery/user-3.png') }}" alt="" />
                             <div class="flex-1 ms-3">
                               <h6 class="mb-0 fs--1 text-1000 fw-medium">Viezh Robert</h6>
                               <p class="fs--2 fw-normal mb-0">Shanxi, China</p>
@@ -354,7 +353,7 @@
                     <div class="card h-100">
                       <div class="card-body">
                         <div class="d-flex justify-content-between align-items-center">
-                          <div class="d-flex align-items-center"><img class="img-fluid" src="assets/img/gallery/user-1.png" alt="" />
+                          <div class="d-flex align-items-center"><img class="img-fluid" src="{{ asset('images/gallery/user-1.png') }}" alt="" />
                             <div class="flex-1 ms-3">
                               <h6 class="mb-0 fs--1 text-1000 fw-medium">Viezh Robert</h6>
                               <p class="fs--2 fw-normal mb-0">arsaw, Poland</p>
@@ -372,7 +371,7 @@
                     <div class="card h-100">
                       <div class="card-body">
                         <div class="d-flex justify-content-between align-items-center">
-                          <div class="d-flex align-items-center"><img class="img-fluid" src="assets/img/gallery/user-2.png" alt="" />
+                          <div class="d-flex align-items-center"><img class="img-fluid" src="{{ asset('images/gallery/user-2.png') }}" alt="" />
                             <div class="flex-1 ms-3">
                               <h6 class="mb-0 fs--1 text-1000 fw-medium">Kim Young Jou</h6>
                               <p class="fs--2 fw-normal mb-0">Seoul, South Korea</p>
@@ -390,7 +389,7 @@
                     <div class="card h-100">
                       <div class="card-body">
                         <div class="d-flex justify-content-between align-items-center">
-                          <div class="d-flex align-items-center"><img class="img-fluid" src="assets/img/gallery/user-3.png" alt="" />
+                          <div class="d-flex align-items-center"><img class="img-fluid" src="{{ asset('images/gallery/user-3.png') }}" alt="" />
                             <div class="flex-1 ms-3">
                               <h6 class="mb-0 fs--1 text-1000 fw-medium">Viezh Robert</h6>
                               <p class="fs--2 fw-normal mb-0">Shanxi, China</p>

@@ -3,7 +3,7 @@
         <section class="bg-200 pt-9 pb-0">
             <div class="container">
               <div class="row">
-                <div class="col-12 col-lg-4 mb-3"><a href="#"><img class="d-inline-block align-middle" src="assets/img/icons/logo.png" alt="" width="30" /><span class="d-inline-block text-1000 fs-1 ms-2 fw-medium lh-base">Lasles<span class="fw-bold">VPN</span></span></a>
+                <div class="col-12 col-lg-4 mb-3"><a href="#"><img class="d-inline-block align-middle" src="{{ asset('images/icons/logo.png') }}" alt="" width="30" /><span class="d-inline-block text-1000 fs-1 ms-2 fw-medium lh-base">Lasles<span class="fw-bold">VPN</span></span></a>
                   <p class="my-3"> <span class="fw-medium">LaslesVPN </span>is a private virtual network that<br />has unique features and has high security. </p>
                   <ul class="list-unstyled list-inline">
                     <li class="list-inline-item"><a class="text-decoration-none" href="#!"><svg class="bi bi-facebook" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#F53838" viewBox="0 0 16 16">
@@ -67,11 +67,11 @@
         <!-- ===============================================-->
         <!--    JavaScripts-->
         <!-- ===============================================-->
-        <script src="vendors/@popperjs/popper.min.js"></script>
-        <script src="vendors/bootstrap/bootstrap.min.js"></script>
-        <script src="vendors/is/is.min.js"></script>
-        <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
-        <script src="assets/js/theme.js"></script>
+        <script src="{{ asset('vendors/popper.min.js') }}"></script>
+        <script src="{{ asset('vendors/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('vendors/is.min.js') }}"></script>
+        {{-- <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script> --}}
+        <script src="{{ asset('js/theme.js') }}"></script>
         <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
       </body>
     
